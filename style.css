@@ -84,7 +84,6 @@ header a {
     color: #817f7f;
 }
 
-
 header nav a:visited {
     color: #817f7f;
 }
@@ -202,8 +201,6 @@ header nav a:visited {
     color: #5c5858;
     letter-spacing: 0.2rem;
     border-bottom: solid;
-
-
 
 }
 
@@ -667,6 +664,78 @@ footer {
         color: black;
         background-color: #f4eee7;
     }
+
+    /** Dynamisk web start **/
+
+    #dynamiskweb {
+        background-image: url(billeder/mal.jpg);
+        background-size: cover;
+        position: absolute;
+    }
+
+    #dynamiskweb .col {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 2;
+        flex-basis: 400px;
+        padding: 3vw;
+        margin: 3vw;
+        background-color: white;
+        opacity: 85%;
+    }
+
+    #dynamiskweb .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #dynamiskweb h1 {
+        font-size: 3rem;
+        font-weight: 100;
+        color: #5c5858;
+        letter-spacing: 0.2rem;
+        margin: 3vw;
+
+
+    }
+
+    #dynamiskweb h2 {
+        font-size: 2rem;
+        font-weight: 100;
+        color: #5c5858;
+        letter-spacing: 0.2rem;
+
+    }
+
+    #dynamiskweb p {
+        color: #5c5858;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+
+
+    }
+
+    #dynamiskweb img {
+        width: 500px;
+        border: 5px solid #aca9a9;
+    }
+
+    #dynamiskweb a {
+        text-decoration: none;
+        font-family: 'Times New Roman', sans-serif;
+        font-weight: 100;
+        color: #5c5858;
+        /*   background-color: palegoldenrod;*/
+        padding: 10px;
+        border: 1px solid #7b7676;
+
+    }
+
+    #dynamiskweb a:hover {
+        color: black;
+        background-color: #f4eee7;
+    }
+
 
     /**** media INDSTILLINGER **/
 
